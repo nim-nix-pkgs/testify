@@ -11,6 +11,7 @@
   inputs.src-testify-master.ref   = "refs/heads/master";
   inputs.src-testify-master.owner = "sealmove";
   inputs.src-testify-master.repo  = "testify";
+  inputs.src-testify-master.dir   = "";
   inputs.src-testify-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
